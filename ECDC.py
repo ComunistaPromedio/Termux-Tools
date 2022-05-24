@@ -39,7 +39,7 @@ def ecdc():
     elif eleccion == "2":
         descript = input("Escribe el texto que quieras descodificar: ")
         descr1pt = base64.b64decode(bytes(descript, 'utf-8'))
-        print(Fore.GREEN + descr1pt)
+        print(descr1pt)
 
 
      # Opción 3, le da al usuario la opción de salirse del programa
